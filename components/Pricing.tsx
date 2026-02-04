@@ -174,8 +174,8 @@ const Pricing = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className={`relative flex flex-col p-10 rounded-[2.5rem] border transition-all duration-500 group h-full backdrop-blur-3xl overflow-hidden ${
                   plan.highlight 
-                    ? "bg-gradient-to-b from-red-950/[0.15] to-[#080808] border-red-500/20 shadow-2xl z-10 scale-[1.03] lg:scale-105" 
-                    : "bg-gradient-to-b from-white/[0.08] to-transparent border-white/10 hover:border-white/20 hover:from-white/[0.12] hover:to-white/[0.02] scale-100 shadow-xl"
+                    ? "bg-[#050505] bg-gradient-to-b from-red-950/20 to-black border-red-500/20 shadow-2xl z-10 scale-[1.03] lg:scale-105" 
+                    : "bg-[#050505]/40 hover:bg-[#050505]/60 bg-gradient-to-b from-white/5 to-transparent border-white/10 hover:border-white/20 scale-100 shadow-xl"
                 }`}
               >
                 {/* Top Inner Light Reflection */}
